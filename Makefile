@@ -151,3 +151,8 @@ doctest:
 	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) $(BUILDDIR)/doctest
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
+
+updategithub: singlehtml
+	cp -f $(BUILDDIR)/singlehtml/index.html .
+	cp --recursive -f $(BUILDDIR)/singlehtml/_static .
+
