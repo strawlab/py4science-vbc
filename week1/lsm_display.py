@@ -19,7 +19,8 @@ if __name__ == "__main__":
     fig = plt.figure()
     layer = lsmfile.get_image(stack=0, channel=0)
     im = plt.imshow(layer, cmap=plt.cm.hot)
-    
+
+    i = 0
     def updatefig(*args):
         global i, Z, lsmfile # <-- bad practice! please cover your eyes!
         i = i+1 if i < Z-1 else 0
