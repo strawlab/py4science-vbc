@@ -23,9 +23,9 @@ from here.
 Next Talk
 ---------
 
-.. image:: py4science-vbc-2012-03-09-email-thumb.png
+.. image:: images/py4science-vbc-2012-03-09-email-thumb.png
     :alt: announcement flyer PDF
-    :target: py4science-vbc-2012-03-09-email.pdf
+    :target: _static/py4science-vbc-2012-03-09-email.pdf
 
 **15 short python programs in 15 minutes**
   *9th March, 12:30pm*

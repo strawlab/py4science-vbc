@@ -156,4 +156,5 @@ doctest:
 updategithub: singlehtml
 	cp -f $(BUILDDIR)/singlehtml/index.html .
 	cp --recursive -f $(BUILDDIR)/singlehtml/_static .
+	cp --recursive -f $(BUILDDIR)/singlehtml/_images .
 
