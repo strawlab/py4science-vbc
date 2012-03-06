@@ -1,17 +1,11 @@
 import matplotlib.pyplot as plt
 import matplotlib.animation as anim
-import os.path
 import pylsm.lsmreader as lsm
 
 import getfile
 
-
 if __name__ == "__main__":
-
-    if not os.path.isfile("DB331-brain.lsm"):
-        getfile.get_from_strawlab("week1/DB331-brain.lsm")
-    
-    lsmfile = lsm.Lsmimage("DB331-brain.lsm")
+    lsmfile = lsm.Lsmimage(getfile.get_from_strawlab("week1/DB331-brain.bin"))
     lsmfile.open()
 
     Z = lsmfile.header['CZ LSM info']['Dimension Z']
