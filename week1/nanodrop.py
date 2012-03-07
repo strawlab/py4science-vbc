@@ -21,10 +21,10 @@ def func():
       state += 1
 data = np.fromiter(func(), float)
 
-data.resize(len(spectrum_names),FREQ_TO - FREQ_FROM)
-data = data.transpose()
+wavelengths = np.arange(FREQ_FROM, FREQ_TO)
+spectra = data.reshape(len(spectrum_names),FREQ_TO - FREQ_FROM).transpose()
 
-plt.plot(np.arange(FREQ_FROM, FREQ_TO),data)
+plt.plot(wavelengths, spectra)
 plt.legend(spectrum_names, loc=4)
 plt.show()
 
