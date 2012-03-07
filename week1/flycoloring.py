@@ -2,9 +2,7 @@ import cv
 import time
 import getfile
 
-getfile.get_from_strawlab("week1/flies.avi")
-
-movie = cv.CaptureFromFile("flies.avi")
+movie = cv.CaptureFromFile( getfile.get_from_strawlab("week1/flies.avi") )
 nframes, rows, cols = map(lambda x: int(cv.GetCaptureProperty(movie, x)), 
     [cv.CV_CAP_PROP_FRAME_COUNT, cv.CV_CAP_PROP_FRAME_HEIGHT, cv.CV_CAP_PROP_FRAME_WIDTH])
 
