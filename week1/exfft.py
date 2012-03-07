@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+
 from scipy.io import wavfile
 from getfile import get_from_strawlab
 
