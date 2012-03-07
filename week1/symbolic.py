@@ -1,5 +1,7 @@
 from sympy import *
 
+from sympy import symbols
+
 a,b,c,d,e,f,g,h,i,x,y,z = var('a b c d e f g h i x y z')
 
 f_1 = a*x + b*y + c*z - 1
@@ -15,3 +17,7 @@ s3 = solve([f_1,f_2,f_3], x, y, z)
 l = lambdify((y,z,a,b,c), s1[x], 'numpy')
 
 print l(1,1,1,1,1)
+
+
+#x,y = symbols("x y")
+#Plot( x*y**3-y*x**3, [x, -1, 1, 20], [y, -1, 1, 20] )
