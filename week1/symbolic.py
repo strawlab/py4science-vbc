@@ -1,23 +1,18 @@
-from sympy import *
+import sympy as sp
+import numpy as np
 
-from sympy import symbols
+M = sp.Matrix(sp.var('m0 m1 m2 m3 m4 m5 m6 m7 m8')).reshape(3,3)
+r = sp.Matrix(sp.var('x y z'))
+t = (np.random.random((3,1))-0.5)*0.1
 
-a,b,c,d,e,f,g,h,i,x,y,z = var('a b c d e f g h i x y z')
+eq = M * r - t
+sp.pretty_print(eq)
 
-f_1 = a*x + b*y + c*z - 1
-f_2 = d*x + e*y + f*z - 1
-f_3 = g*x + h*y + i*z - 1
+solution = [sp.solve(surface, z) for surface in eq]
 
-s1 = solve([f_1,], x, y, z)
+m = np.array(((1.0, 0.1, -0.1), (0.1, 1.0, -0.1), (-0.1, -0.1, 1.0))).reshape(9)
 
-s2 = solve([f_1,f_2], x, y, z)
-
-s3 = solve([f_1,f_2,f_3], x, y, z)
-
-l = lambdify((y,z,a,b,c), s1[x], 'numpy')
-
-print l(1,1,1,1,1)
-
-
-#x,y = symbols("x y")
-#Plot( x*y**3-y*x**3, [x, -1, 1, 20], [y, -1, 1, 20] )
+p = sp.Plot()
+p[1] = s[0][0].subs(zip(M[:],m))
+p[2] = s[1][0].subs(zip(M[:],m))
+p[3] = s[2][0].subs(zip(M[:],m))
