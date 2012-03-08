@@ -1,7 +1,9 @@
 import subprocess
 
-from Bio import Entrez, SeqIO
+from Bio import Entrez, SeqIO, AlignIO
 from Bio.Emboss.Applications import NeedleCommandline
+
+import getfile
 
 Entrez.email = "stowers@imp.ac.at"
 
@@ -11,30 +13,13 @@ homo = SeqIO.read(handle, "genbank")
 handle = Entrez.efetch(db="nucleotide", id="AY863830",rettype="gb", retmode="text")
 drosophila = SeqIO.read(handle, "genbank")
 
-open("homo.fasta","w").write(biosomething.homo.format("fasta"))
-ls
-cat homo.fasta
-open("drosophila.fasta","w").write(biosomething.drosophila.format("fasta"))
+open("homo.fasta","w").write(homo.format("fasta"))
+open("drosophila.fasta","w").write(drosophila.format("fasta"))
 
 n = NeedleCommandline(asequence="homo.fasta", bsequence="drosophila.fasta",gapopen=10, gapextend=0.5, outfile="needle.txt")
-n
-n
+
 print n
-!needle -outfile=needle.txt -asequence=homo.fasta -bsequence=drosophila.fasta -gapopen=10 -gapextend=0.5
-from Bio import AlignIO
-align = AlignIO.read("needle.txt", "emboss")
-align
-print align
-!needle -outfile=needle.txt -asequence=homo.fasta -bsequence=drosophila.fasta -gapopen=1 -gapextend=0.5
-align = AlignIO.read("needle.txt", "emboss")
-print align
-!needle -outfile=needle.txt -asequence=homo.fasta -bsequence=drosophila.fasta -gapopen=100 -gapextend=0.5
-align = AlignIO.read("needle.txt", "emboss")
-print align
-!needle -outfile=needle.txt -asequence=homo.fasta -bsequence=drosophila.fasta -gapopen=10 -gapextend=10
-align = AlignIO.read("needle.txt", "emboss")
-print align
-history
-
-
+#!needle -outfile=needle.txt -asequence=homo.fasta -bsequence=drosophila.fasta -gapopen=10 -gapextend=0.5
+#align = AlignIO.read("needle.txt", "emboss")
+#print align
 
