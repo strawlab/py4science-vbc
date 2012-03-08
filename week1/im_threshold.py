@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('images', metavar='N', type=str, nargs='*',
                     help='images (default:lena)',
                     default=[getfile.get_from_strawlab("week1/lena-color.png")])
-parser.add_argument('-t', '--threshold', default=80)
+parser.add_argument('-t', '--threshold', type=int, default=80)
 args = parser.parse_args()
 
 for fn in args.images:
