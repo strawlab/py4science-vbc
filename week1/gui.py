@@ -1,24 +1,27 @@
-
 from gi.repository import Gtk
 
-def foo(btn, lbl):
-    old = int(lbl.get_text()[-1])
-    lbl.set_text("Clicked %s" % (old  + 1))
-    if old == 9:
-        Gtk.main_quit()
+import getfile
+getfile.get_from_strawlab("week1/lena-color.png")
+getfile.get_from_strawlab("week1/lena-gray.png")
 
-w = Gtk.Window()
-v = Gtk.VBox()
-l = Gtk.Label("Clicked 0")
+class App:
+    def __init__(self):
+        ui = Gtk.Builder()
+        ui.add_from_file("gui.ui")
+        ui.connect_signals(self)
 
-b = Gtk.Button("test")
-b.connect("clicked", foo, l)
+        self.label = ui.get_object("label1")
+        self.image = ui.get_object('image1')
+        self.on_button_clicked()
 
-v.pack_start(l, 0, True, True)
-v.pack_start(b, 0, True, True)
+        window = ui.get_object('window1')
+        window.connect('destroy', lambda x: Gtk.main_quit())
+        window.show_all()
 
-w.add (v)
+    def on_button_clicked(self, *args):
+        lena = "lena-color.png" if self.label.get_text() == "lena-gray.png" else "lena-gray.png"
+        self.image.set_from_file(lena)
+        self.label.set_text(lena)
 
-w.show_all()
-
+app = App()
 Gtk.main()
