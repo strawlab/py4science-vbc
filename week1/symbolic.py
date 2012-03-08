@@ -13,6 +13,6 @@ solution = [sp.solve(surface, z) for surface in eq]
 m = np.array(((1.0, 0.1, -0.1), (0.1, 1.0, -0.1), (-0.1, -0.1, 1.0))).reshape(9)
 
 p = sp.Plot()
-p[1] = s[0][0].subs(zip(M[:],m))
-p[2] = s[1][0].subs(zip(M[:],m))
-p[3] = s[2][0].subs(zip(M[:],m))
+p[1] = solution[0][0].subs(zip(M[:],m))
+p[2] = solution[1][0].subs(zip(M[:],m))
+p[3] = solution[2][0].subs(zip(M[:],m))
