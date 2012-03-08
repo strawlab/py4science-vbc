@@ -1,44 +1,46 @@
-#!/usr/bin/env pinpoint
+#!/usr/bin/pinpoint -m
 [white]
+[text-color=black]
+[font=Monospace 16px]
 [shading-color=white]
 [shading-opacity=0.0]
-[font=Sans 40px]
--- [black] [shading-color=black] [shading-opacity=0.66]
-Welcome to Python
+[transition=fade]
+-- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
+Welcome to Py4Science
 
--- [black] [shading-color=black] [shading-opacity=0.66]
+-- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 Python is great
 
--- [black] [shading-color=black] [shading-opacity=0.66]
+-- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 Here are some examples
 
--- [command=python im_threshold.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i im_threshold.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python im_threshold.py] [slide-contents-exec=source-highlight -s py -i im_threshold.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python genetranslation.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i genetranslation.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python genetranslation.py] [slide-contents-exec=source-highlight -s py -i genetranslation.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python biosomething.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i biosomething.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python biosomething.py] [slide-contents-exec=source-highlight -s py -i biosomething.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python getfile.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i getfile.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python getfile.py] [slide-contents-exec=source-highlight -s py -i getfile.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python im_gaussian.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i im_gaussian.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python im_gaussian.py] [slide-contents-exec=source-highlight -s py -i im_gaussian.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python imread.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i imread.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python imread.py] [slide-contents-exec=source-highlight -s py -i imread.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python symbolic.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i symbolic.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python symbolic.py] [slide-contents-exec=source-highlight -s py -i symbolic.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python webscrape.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i webscrape.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python webscrape.py] [slide-contents-exec=source-highlight -s py -i webscrape.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python nanodrop.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i nanodrop.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python nanodrop.py] [slide-contents-exec=source-highlight -s py -i nanodrop.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python flycoloring.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i flycoloring.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python flycoloring.py] [slide-contents-exec=source-highlight -s py -i flycoloring.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python gui.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i gui.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python gui.py] [slide-contents-exec=source-highlight -s py -i gui.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python labjack.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i labjack.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python labjack.py] [slide-contents-exec=source-highlight -s py -i labjack.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python lsm_display.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i lsm_display.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python lsm_display.py] [slide-contents-exec=source-highlight -s py -i lsm_display.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python genslides.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i genslides.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python genslides.py] [slide-contents-exec=source-highlight -s py -i genslides.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=python exfft.py] [text-color=black] [font=Monospace 16px] [slide-contents-exec=source-highlight -s py -i exfft.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=python exfft.py] [slide-contents-exec=source-highlight -s py -i exfft.py -o STDOUT --outlang-def=./pango.outlang]
 
