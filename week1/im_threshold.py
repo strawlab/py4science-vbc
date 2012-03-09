@@ -12,6 +12,7 @@ parser.add_argument('-t', '--threshold', type=int, default=80)
 args = parser.parse_args()
 
 for fn in args.images:
+    print "Thresholding %s at %d" % (fn, args.threshold)
     im = Image.open(fn)
     im = im.convert('L')
     thr = im.point(lambda x: (x > args.threshold)*255)

@@ -2,6 +2,7 @@ import os.path
 import requests
 
 def get_from_strawlab(name):
+    """ Downloads and saves a file (if it doesnt exist) from the strawlab website """
     fname = name.split("/")[-1]
     if not os.path.exists(fname):
       data = requests.get("http://straw-static.imp.ac.at/py4science-vbc/%s" % name)
