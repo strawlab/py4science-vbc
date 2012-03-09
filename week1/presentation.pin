@@ -44,5 +44,7 @@ Here are some examples
 
 -- [command=_vbc python exfft.py] [slide-contents-exec=source-highlight -s py -i exfft.py -o STDOUT --outlang-def=./pango.outlang]
 
+-- [command=_vbc python climate.py] [slide-contents-exec=source-highlight -s py -i climate.py -o STDOUT --outlang-def=./pango.outlang]
+
 -- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 Sandwich!
