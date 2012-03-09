@@ -12,7 +12,7 @@ are a complete beginner the talks will be short (15 minutes) followed by interac
 and demonstrations so you will not be bored.
 
 A virtual machine featuring all the necessary software will be provided. You can download this
-from here.
+from here (coming soon).
 
 **where**
   The GMI Orange Seminar Room (room 9.36)
@@ -20,15 +20,21 @@ from here.
 **when**
   The 2nd and 4th Friday of the month, 12:30pm.
 
+**where else...**
+
 Next Talk
 ---------
 
-.. image:: images/py4science-vbc-2012-03-09-email-thumb.png
-    :alt: announcement flyer PDF
-    :target: _static/py4science-vbc-2012-03-09-email.pdf
+To be decided...
+
+Previous Talks
+--------------
 
 **15 short python programs in 15 minutes**
-  *9th March, 12:30pm*
+
+  `presentation here <_static/week1.pdf>`_
+
+  `source code here <https://github.com/strawlab/py4science-vbc/tree/master/week1>`_
 
   A whirldwind tour of the capabilities of python, the python standard library, and common
   python modules including numpy, matplotlib and opencv. We will show you how to read and
