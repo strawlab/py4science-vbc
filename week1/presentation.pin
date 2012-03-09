@@ -9,18 +9,38 @@
 Welcome to Py4Science
 
 -- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
+<span font="Monospace 22px"><b><span color="#0000FF">print</span></b><span color="#FF0000">"hello world"</span></span>
+
+-- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 Python is great
+
+ ✔ 'scripting language'
+ ✔ object orientated
+ ✔ interpreted, dynamic typing
+ ✔ minimal syntax
+ ✔ flexible data structures
+
+-- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
+The Zen of Python
+
+ ✔ Beautiful is better than ugly.
+ ✔ Explicit is better than implicit.
+ ✔ Simple is better than complex
+ ✔ complex is better than complicated
+ ✔ Flat is better than nested.
+ ✔ Sparse is better than dense.
+ ✔ Readability counts.
 
 -- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 Here are some examples
+
+-- [command=_vbc python getfile.py] [slide-contents-exec=source-highlight -s py -i getfile.py -o STDOUT --outlang-def=./pango.outlang]
 
 -- [command=_vbc python im_threshold.py] [slide-contents-exec=source-highlight -s py -i im_threshold.py -o STDOUT --outlang-def=./pango.outlang]
 
 -- [command=_vbc python genetranslation.py] [slide-contents-exec=source-highlight -s py -i genetranslation.py -o STDOUT --outlang-def=./pango.outlang]
 
 -- [command=_vbc python biosomething.py] [slide-contents-exec=source-highlight -s py -i biosomething.py -o STDOUT --outlang-def=./pango.outlang]
-
--- [command=_vbc python getfile.py] [slide-contents-exec=source-highlight -s py -i getfile.py -o STDOUT --outlang-def=./pango.outlang]
 
 -- [command=_vbc python im_gaussian.py] [slide-contents-exec=source-highlight -s py -i im_gaussian.py -o STDOUT --outlang-def=./pango.outlang]
 
@@ -48,3 +68,6 @@ Here are some examples
 
 -- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 Sandwich!
+
+-- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
+What shall we talk about next week?
