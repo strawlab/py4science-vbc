@@ -34,40 +34,56 @@ The Zen of Python
 -- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 Here are some examples
 
--- [command=_vbc python getfile.py] [slide-contents-exec=source-highlight -s py -i getfile.py -o STDOUT --outlang-def=./pango.outlang]
-
--- [command=_vbc python im_threshold.py] [slide-contents-exec=source-highlight -s py -i im_threshold.py -o STDOUT --outlang-def=./pango.outlang]
-
 -- [command=_vbc python genetranslation.py] [slide-contents-exec=source-highlight -s py -i genetranslation.py -o STDOUT --outlang-def=./pango.outlang]
+can be run as a script
 
--- [command=_vbc python biosomething.py] [slide-contents-exec=source-highlight -s py -i biosomething.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=gnome-terminal] [slide-contents-exec=source-highlight -s bash -i webserver.sh -o STDOUT --outlang-def=./pango.outlang]
+can be run interpreted, as module
 
--- [command=_vbc python im_gaussian.py] [slide-contents-exec=source-highlight -s py -i im_gaussian.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=_vbc python getfile.py] [slide-contents-exec=source-highlight -s py -i getfile.py -o STDOUT --outlang-def=./pango.outlang]
+can write functions which can later be imported or run as scripts
 
 -- [command=_vbc python imread.py] [slide-contents-exec=source-highlight -s py -i imread.py -o STDOUT --outlang-def=./pango.outlang]
+introduce matplotlib and matlab mode
+
+-- [command=gnome-terminal] [slide-contents-exec=source-highlight -s py -i im_threshold.py -o STDOUT --outlang-def=./pango.outlang]
+introduce PIL
+
+-- [command=_vbc python im_gaussian.py] [slide-contents-exec=source-highlight -s py -i im_gaussian.py -o STDOUT --outlang-def=./pango.outlang]
+introduce opencv
 
 -- [command=_vbc python symbolic.py] [slide-contents-exec=source-highlight -s py -i symbolic.py -o STDOUT --outlang-def=./pango.outlang]
+symbolic maths
 
 -- [command=_vbc python webscrape.py] [slide-contents-exec=source-highlight -s py -i webscrape.py -o STDOUT --outlang-def=./pango.outlang]
-
--- [command=_vbc python nanodrop.py] [slide-contents-exec=source-highlight -s py -i nanodrop.py -o STDOUT --outlang-def=./pango.outlang]
-
--- [command=_vbc python flycoloring.py] [slide-contents-exec=source-highlight -s py -i flycoloring.py -o STDOUT --outlang-def=./pango.outlang]
-
--- [command=_vbc python gui.py] [slide-contents-exec=source-highlight -s py -i gui.py -o STDOUT --outlang-def=./pango.outlang]
+can be used for random tasks
 
 -- [command=_vbc python labjack.py] [slide-contents-exec=source-highlight -s py -i labjack.py -o STDOUT --outlang-def=./pango.outlang]
+can talk to hardware
+
+-- [command=_vbc python nanodrop.py] [slide-contents-exec=source-highlight -s py -i nanodrop.py -o STDOUT --outlang-def=./pango.outlang]
+can talk to lab equipmet
 
 -- [command=_vbc python lsm_display.py] [slide-contents-exec=source-highlight -s py -i lsm_display.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [command=_vbc python genslides.py] [slide-contents-exec=source-highlight -s py -i genslides.py -o STDOUT --outlang-def=./pango.outlang]
-
--- [command=_vbc python exfft.py] [slide-contents-exec=source-highlight -s py -i exfft.py -o STDOUT --outlang-def=./pango.outlang]
+-- [command=_vbc python flycoloring.py] [slide-contents-exec=source-highlight -s py -i flycoloring.py -o STDOUT --outlang-def=./pango.outlang]
 
 -- [command=_vbc python climate.py] [slide-contents-exec=source-highlight -s py -i climate.py -o STDOUT --outlang-def=./pango.outlang]
+csv + sqlite
+
+-- [command=_vbc python exfft.py] [slide-contents-exec=source-highlight -s py -i exfft.py -o STDOUT --outlang-def=./pango.outlang]
+can do signal processing
+
+-- [command=_vbc python biosomething.py] [slide-contents-exec=source-highlight -s py -i biosomething.py -o STDOUT --outlang-def=./pango.outlang]
+something
+
+-- [command=_vbc python gui.py] [slide-contents-exec=source-highlight -s py -i gui.py -o STDOUT --outlang-def=./pango.outlang]
+can write guis, class based
 
 -- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 Sandwich!
 
 -- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 What shall we talk about next week?
+
+#-- [command=_vbc python genslides.py] [slide-contents-exec=source-highlight -s py -i genslides.py -o STDOUT --outlang-def=./pango.outlang]

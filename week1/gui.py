@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from gi.repository import Gtk
 
 import getfile

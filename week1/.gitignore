@@ -4,5 +4,6 @@
 *.avi
 *.tsv
 *.bin
+*.csv
 README
 needle.txt
