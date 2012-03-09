@@ -14,7 +14,10 @@ drosophila = SeqIO.read(handle, "genbank")
 open("homo.fasta","w").write(homo.format("fasta"))
 open("drosophila.fasta","w").write(drosophila.format("fasta"))
 
-cmdline = NeedleCommandline(asequence="homo.fasta", bsequence="drosophila.fasta",gapopen=10, gapextend=0.5, outfile="needle.txt")
+cmdline = NeedleCommandline(
+            asequence="homo.fasta",
+            bsequence="drosophila.fasta",
+            gapopen=10, gapextend=0.5, outfile="needle.txt")
 subprocess.call(str(cmdline), shell=True)
 
 align = AlignIO.read("needle.txt", "emboss")
