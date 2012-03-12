@@ -32,6 +32,10 @@ Previous Talks
 
 **15 short python programs in 15 minutes**
 
+  .. image:: images/py4science-vbc-2012-03-09-email-thumb.png
+      :alt: announcement flyer PDF
+      :target: _static/py4science-vbc-2012-03-09-email.pdf
+
   `presentation here <_static/week1.pdf>`_
 
   `source code here <https://github.com/strawlab/py4science-vbc/tree/master/week1>`_
