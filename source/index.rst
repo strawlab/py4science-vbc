@@ -4,12 +4,14 @@ Welcome to Py4Science at the Vienna Biocenter
 The Python language is an excellent tool for scientific computing and rapidly growing in popularity.
 It is easy to read, easy to write and it features a great selection of powerful libraries.
 
-The Py4Science is a bi-monthly, short, interactive series demonstrating the awesomeness of Python in
-science and facilitating cross-pollination between interested parties.
-Those wishing to attend do not need to be expert at python programming, but familiarity with
-the language and some popular libraries such as numpy and matplotlib is encouraged. Even if you
-are a complete beginner the talks will be short (15 minutes) followed by interactive discussions
-and demonstrations so you will not be bored.
+Py4Science VBC (Vienna Bio Center) is a bi-monthly meeting series
+facilitating cross-pollination between interested parties who use
+Python as part of their scientific tool set. Those wishing to attend
+do not need to be expert at python programming, but familiarity with
+the language and some popular libraries such as numpy and matplotlib
+is encouraged. Even if you are a complete beginner the talks will be
+short (15 minutes) followed by interactive discussions and
+demonstrations so you will not be bored.
 
 .. raw:: html
 
