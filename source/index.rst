@@ -11,6 +11,23 @@ the language and some popular libraries such as numpy and matplotlib is encourag
 are a complete beginner the talks will be short (15 minutes) followed by interactive discussions
 and demonstrations so you will not be bored.
 
+.. raw:: html
+
+  <table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
+  <tr><td>
+  <img src="http://groups.google.com/intl/en/images/logos/groups_logo_sm.gif"
+         height=30 width=140 alt="Google Groups">
+  </td></tr>
+  <tr><td style="padding-left: 5px"> <b>Subscribe to py4science VBC</b> </td></tr>
+  <form action="http://groups.google.com/group/py4science-vbc/boxsubscribe">
+  <input type=hidden name="hl" value="en-GB">
+  <tr><td style="padding-left: 5px;"> Email: <input type=text name=email>
+  <input type=submit name="sub" value="Subscribe">
+  </td></tr>
+  </form>
+  <tr><td align=right> <a href="http://groups.google.com/group/py4science-vbc?hl=en-GB">Visit this group</a> </td></tr>
+  </table>
+
 A virtual machine featuring all the necessary software will be provided. You can download this
 from here (coming soon).
 
