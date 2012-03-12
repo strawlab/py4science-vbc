@@ -156,5 +156,6 @@ doctest:
 updategithub: singlehtml
 	cp -f $(BUILDDIR)/singlehtml/index.html .
 	cp --recursive -f $(BUILDDIR)/singlehtml/_static .
+	mkdir -p $(BUILDDIR)/singlehtml/_images .
 	cp --recursive -f $(BUILDDIR)/singlehtml/_images .
-
+	echo "you may now visit file://`realpath $(BUILDDIR)/singlehtml/index.html`"
