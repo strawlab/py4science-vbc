@@ -44,12 +44,29 @@ from here (coming soon).
 Next Talk
 ---------
 
-To be decided...
+**structured arrays in numpy**
+
+  Andrew Straw
+
+  Friday, 23 March 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  Numpy's structured arrays are a hybrid between a bare numpy array
+  (just a bunch of numbers) and table in which each column has a name
+  and particular data type. As a data container, they allow
+  self-documenting massive amounts of data and are becoming
+  increasingly used as an interchange format for reading and writing
+  CSV files, HDF5 files, and performing R-like DataFrame analysis
+  (with the Pandas library).
+
 
 Previous Talks
 --------------
 
 **15 short python programs in 15 minutes**
+
+  John Stowers and Andreas Pöhlmann
+
+  Friday, 9 March 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
   .. image:: images/py4science-vbc-2012-03-09-email-thumb.png
       :alt: announcement flyer PDF
