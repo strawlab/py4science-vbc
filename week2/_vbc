@@ -1,0 +1,25 @@
+#!/usr/bin/python
+# needs ipython 0.12.somethingsomething
+# TODO: delete this file...
+
+import sys
+import subprocess
+
+if len(sys.argv) < 2:
+    exit()
+elif sys.argv[1] != 'python':
+    ex = " ".join(sys.argv[1:])
+    subprocess.call(sys.argv[1:])
+else:
+    if sys.argv[2:]:
+        with open(sys.argv[2], 'r') as f:
+            content = f.read()
+        if content.find("print") < 0:
+            ex = " ".join(sys.argv[2:])
+            subprocess.call(['python']+sys.argv[2:])
+        else:
+            ex = "ipython --no-banner -i "+" ".join(sys.argv[2:])
+            subprocess.call(['gnome-terminal', '-e', ex])
+    else:
+        ex = "ipython --no-banner -i"
+        subprocess.call(['gnome-terminal', '-e', ex])

@@ -1,0 +1,13 @@
+#!/usr/bin/pinpoint -m
+[white]
+[text-color=black]
+[font=Monospace 16px]
+[shading-color=white]
+[shading-opacity=0.0]
+[transition=fade]
+-- [command=_vbc python csv2arr.py] [slide-contents-exec=source-highlight -s py -i csv2arr.py -o STDOUT --outlang-def=./pango.outlang]
+can be run as a script
+
+-- [command=_vbc python plot_csv.py] [slide-contents-exec=source-highlight -s py -i plot_csv.py -o STDOUT --outlang-def=./pango.outlang]
+can be run as a script
+
