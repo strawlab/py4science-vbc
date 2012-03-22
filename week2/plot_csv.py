@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib.mlab import csv2rec
 import matplotlib.pyplot as plt
 
-arr=csv2rec('iris.csv') # see http://en.wikipedia.org/wiki/Iris_flower_data_set
+arr=csv2rec('iris.csv')
 
 all_species = np.unique(arr['species'])
 for species in all_species:

@@ -1,13 +1,18 @@
 #!/usr/bin/pinpoint -m
 [white]
+[Iris_versicolor_3.jpg]
 [text-color=black]
 [font=Monospace 16px]
 [shading-color=white]
-[shading-opacity=0.0]
+[shading-opacity=0.9]
 [transition=fade]
+-- [command=_vbc python simple_arr.py] [slide-contents-exec=source-highlight -s py -i simple_arr.py -o STDOUT --outlang-def=./pango.outlang]
+
 -- [command=_vbc python csv2arr.py] [slide-contents-exec=source-highlight -s py -i csv2arr.py -o STDOUT --outlang-def=./pango.outlang]
-can be run as a script
 
 -- [command=_vbc python plot_csv.py] [slide-contents-exec=source-highlight -s py -i plot_csv.py -o STDOUT --outlang-def=./pango.outlang]
-can be run as a script
+
+-- [command=_vbc python arr_h5.py] [slide-contents-exec=source-highlight -s py -i arr_h5.py -o STDOUT --outlang-def=./pango.outlang]
+
+-- [command=_vbc python arr_pandas.py] [slide-contents-exec=source-highlight -s py -i arr_pandas.py -o STDOUT --outlang-def=./pango.outlang]
 
