@@ -30,6 +30,14 @@ demonstrations so you will not be bored.
   <tr><td align=right> <a href="http://groups.google.com/group/py4science-vbc?hl=en-GB">Visit this group</a> </td></tr>
   </table>
 
+  <table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
+  <tr>
+    <td>
+    Check out our repositiory at <a href="http://github.com/strawlab/py4science-vbc/">github.com/strawlab/py4science-vbc/</a>
+    </td>
+  </tr>
+  </table>
+
 A virtual machine featuring all the necessary software will be provided. You can download this
 from here (coming soon).
 
