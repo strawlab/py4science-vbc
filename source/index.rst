@@ -52,11 +52,31 @@ from here (coming soon).
 Next Talk
 ---------
 
+**interfacing with native code from python**
+
+  John Stowers
+
+  Friday, 13 April 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  There are many ways to integrate with native code (i.e. C/C++ libraries)
+  from python; ctypes, cython/pyrex, swig, native python modules, etc.
+  Each method has different trade-offs in terms of performance, maintainability
+  and extensibility. I will discus these trade-offs and give strategies for
+  wrapping object orientated and performance critical native code.
+
+
+Previous Talks
+--------------
+
 **structured arrays in numpy**
 
   Andrew Straw
 
   Friday, 23 March 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  `presentation here <_static/week2.pdf>`_
+
+  `source code here <https://github.com/strawlab/py4science-vbc/tree/master/week2>`_
 
   Numpy's structured arrays are a hybrid between a bare numpy array
   (just a bunch of numbers) and table in which each column has a name
@@ -66,9 +86,6 @@ Next Talk
   CSV files, HDF5 files, and performing R-like DataFrame analysis
   (with the Pandas library).
 
-
-Previous Talks
---------------
 
 **15 short python programs in 15 minutes**
 
