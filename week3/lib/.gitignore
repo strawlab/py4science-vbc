@@ -1,0 +1,5 @@
+*.o
+*.so
+modlibprime.c
+pyxprime.c
+testlibprime

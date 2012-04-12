@@ -1,19 +1,19 @@
-all: testlibfib libfib.so pyxlibfib.so fib.pyx
+all: testlibprime libprime.so pyxlibprime.so pyxprime.so
 
-libfib.so: libfib.o
-	$(CC) -Wall -g -fPIC -shared -o $@ $< -lc
+libprime.so: prime.o libprime.o
+	$(CC) -Wall -g -fPIC -shared -o $@ $? -lc
 
-testlibfib: libfib_main.c libfib.o
+testlibprime: libprime_main.c libprime.so
 	$(CC) -Wall -g -o $@ $?
 
-pyxlibfib.so: libfib.so modlibfib.pyx
-	python pyxlibfibsetup.py build_ext --inplace
+pyxlibprime.so: libprime.so modlibprime.pyx
+	python pyxlibprimesetup.py build_ext --inplace
 
-fib.pyx: fib.py
-	cp -f $? $@
+pyxprime.so: pyxprime.pyx
+	python pyxprimesetup.py build_ext --inplace
 
 clean:
-	rm -f testlibfib libfib.o libfib.so *.pyc
-	rm -f pyxlibfib.so modlibfib.c
-	rm -f fib.pyx
+	rm -f testlibprime libprime.o libprime.so *.pyc *.o
+	rm -f pyxlibprime.so modlibprime.c
+	rm -f prime.pyx
 	rm -rf build

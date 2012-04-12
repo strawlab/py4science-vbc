@@ -18,10 +18,10 @@ Why
  ✔ interfacing with other computational environments
  ✔ flexible data structures
 
--- [slide-contents-exec=source-highlight -s c -i lib/libfib.h -o STDOUT --outlang-def=./pango.outlang]
+-- [slide-contents-exec=source-highlight -s c -i lib/libprime.h -o STDOUT --outlang-def=./pango.outlang]
 
--- [slide-contents-exec=source-highlight -s py -i lib/modlibfib.pyx -o STDOUT --outlang-def=./pango.outlang]
+-- [slide-contents-exec=source-highlight -s py -i lib/modlibprime.pyx -o STDOUT --outlang-def=./pango.outlang]
 
--- [slide-contents-exec=source-highlight -s py -i lib/ctlibfib.py -o STDOUT --outlang-def=./pango.outlang]
+-- [slide-contents-exec=source-highlight -s py -i lib/ctlibprime.py -o STDOUT --outlang-def=./pango.outlang]
 
 
