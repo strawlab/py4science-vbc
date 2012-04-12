@@ -1,0 +1,27 @@
+#!/usr/bin/pinpoint -m
+[white]
+[text-color=black]
+[font=Monospace 16px]
+[shading-color=white]
+[shading-opacity=0.0]
+[transition=fade]
+-- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
+Interfacing with Native code from Python
+
+-- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
+Why
+
+ ✔ speeding up hot loops
+ ✔ speeding up hot loops	
+ ✔ interfacing with native libraries
+ ✔ improving performance in multi-threaded applications
+ ✔ interfacing with other computational environments
+ ✔ flexible data structures
+
+-- [slide-contents-exec=source-highlight -s c -i lib/libfib.h -o STDOUT --outlang-def=./pango.outlang]
+
+-- [slide-contents-exec=source-highlight -s py -i lib/modlibfib.pyx -o STDOUT --outlang-def=./pango.outlang]
+
+-- [slide-contents-exec=source-highlight -s py -i lib/ctlibfib.py -o STDOUT --outlang-def=./pango.outlang]
+
+
