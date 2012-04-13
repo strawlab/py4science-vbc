@@ -11,6 +11,6 @@ void    prime_free(ctx_t *ctx);
 
 void    prime_print(ctx_t *ctx);
 
-void    prime_get_data(ctx_t *ctx, int **data, int *len);
+int     *prime_get_data(ctx_t *ctx, int *len);
 
 #endif /* _LIBPRIME_H_ */

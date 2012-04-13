@@ -36,12 +36,12 @@ prime_print(ctx_t *ctx)
     printf("\n");
 }
 
-void
-prime_get_data(ctx_t *ctx, int **data, int *len)
+int *
+prime_get_data(ctx_t *ctx, int *len)
 {
     int *d = calloc(ctx->len,sizeof(int));
     *len = ctx->len;
     memcpy (d, ctx->data, ctx->len * sizeof(int));
-    *data = d;
+    return d;
 }
 
