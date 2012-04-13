@@ -24,4 +24,18 @@ Why
 
 -- [slide-contents-exec=source-highlight -s py -i lib/ctlibprime.py -o STDOUT --outlang-def=./pango.outlang]
 
+R example
+GObject / Qt
 
+http://davidz25.blogspot.com/2011/07/writing-c-library-intro-conclusion-and.html
+http://0pointer.de/blog/projects/libabc.html
+
+Profiling
+http://packages.python.org/line_profiler/
+
+GIL
+http://wiki.python.org/moin/GlobalInterpreterLock
+
+Weave/etc (from email)
+
+Numpy
