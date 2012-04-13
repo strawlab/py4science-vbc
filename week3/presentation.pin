@@ -39,3 +39,7 @@ http://wiki.python.org/moin/GlobalInterpreterLock
 Weave/etc (from email)
 
 Numpy
+http://www.scipy.org/PerformancePython
+http://www.scipy.org/Cookbook/Ctypes
+http://rebrained.com/?p=458
+http://technicaldiscovery.blogspot.com/2011/06/speeding-up-python-numpy-cython-and.html
