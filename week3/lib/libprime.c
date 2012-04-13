@@ -14,8 +14,7 @@ prime_new(unsigned int len)
 {
     ctx_t *ctx = calloc(1,sizeof(ctx_t));
     ctx->len = len < PRIME_MAX ? len : PRIME_MAX;
-    ctx->data = calloc(ctx->len, sizeof(int));
-    calculate_primes(ctx->data, ctx->len);
+    ctx->data = create_primes(ctx->len);
     return ctx;
 }
 
@@ -47,12 +46,29 @@ prime_get_data(ctx_t *ctx, int *len)
 void
 calculate_primes(int *data, int kmax)
 {
-    int i,j,k,n;
-    int *p;
+    int i,k,n;
 
-    p = calloc(kmax, sizeof(int));
+    k = 0; n = 2;
+    while (k < kmax) {
+        i = 0;
+        while ((i < k) && (n % data[i] != 0))
+            i = i + 1;
+        if (i == k) {
+            data[k] = n;
+            k = k + 1;
+        }
+        n += 1;
+    }
 
-    k = 0; n = 2; j = 0;
+}
+
+int *
+create_primes(int kmax)
+{
+    int i,k,n;
+    int *p = calloc(kmax, sizeof(int));
+
+    k = 0; n = 2;
     while (k < kmax) {
         i = 0;
         while ((i < k) && (n % p[i] != 0))
@@ -60,10 +76,10 @@ calculate_primes(int *data, int kmax)
         if (i == k) {
             p[k] = n;
             k = k + 1;
-            data[j++] = n;
         }
         n += 1;
     }
 
-    free(p);
+    return p;
 }
+

@@ -11,5 +11,6 @@ void    prime_print(ctx_t *ctx);
 int     *prime_get_data(ctx_t *ctx, int *len);
 
 void    calculate_primes(int *data, int kmax);
+int     *create_primes(int kmax);
 
 #endif /* _LIBPRIME_H_ */
