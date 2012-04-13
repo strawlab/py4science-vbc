@@ -1,6 +1,6 @@
 all: testlibprime libprime.so pyxlibprime.so pyxprime.so pyprime.so
 
-libprime.so: libprime.o
+libprime.so: libprime.c
 	$(CC) -Wall -g -fPIC -shared -o $@ $? -lc
 
 testlibprime: libprime_main.c libprime.so
@@ -14,7 +14,7 @@ pyxprime.so: pyxprime.pyx
 
 pyprime.so: modprime.c
 	python modprimesetup.py build
-	cp build/lib.linux-i686-2.7/pyprime.so .
+	cp build/`python -c 'import distutils.util; print "lib."+distutils.util.get_platform()+"-2.7"'`/pyprime.so .
 
 clean:
 	rm -f testlibprime
