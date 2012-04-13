@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export LD_LIBRARY_PATH=`pwd`
+
 echo testlibprime
 time $(./testlibprime >/dev/null)
 
