@@ -9,11 +9,7 @@ ctx_t   *prime_new(unsigned int len);
 
 void    prime_free(ctx_t *ctx);
 
-void    prime_double(ctx_t *ctx);
-
 void    prime_print(ctx_t *ctx);
-
-void    prime_prime(ctx_t *ctx);
 
 void    prime_get_data(ctx_t *ctx, int **data, int *len);
 

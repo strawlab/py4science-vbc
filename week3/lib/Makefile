@@ -1,4 +1,4 @@
-all: testlibprime libprime.so pyxlibprime.so pyxprime.so
+all: testlibprime libprime.so pyxlibprime.so pyxprime.so pyprime.so
 
 libprime.so: prime.o libprime.o
 	$(CC) -Wall -g -fPIC -shared -o $@ $? -lc
@@ -11,6 +11,10 @@ pyxlibprime.so: libprime.so modlibprime.pyx
 
 pyxprime.so: pyxprime.pyx
 	python pyxprimesetup.py build_ext --inplace
+
+pyprime.so: modprime.c
+	python modprimesetup.py build
+	cp build/lib.linux-i686-2.7/pyprime.so .
 
 clean:
 	rm -f testlibprime libprime.o libprime.so *.pyc *.o
