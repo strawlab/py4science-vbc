@@ -1,7 +1,9 @@
 import os.path
-from ctypes import *
+import ctypes as ct
 
-lib = cdll.LoadLibrary(os.path.abspath("libprime.so"))
+lib = ct.cdll.LoadLibrary(os.path.abspath("libprime.so"))
+lib.prime_get_data.restype = ct.POINTER(ct.c_int)
+lib.prime_get_data.argtypes = [ct.c_void_p, ct.POINTER(ct.c_int)]
 
 class Prime:
     def __init__(self, n):
@@ -11,12 +13,7 @@ class Prime:
         lib.prime_print(self._ctx)
 
     def get_data(self):
-        func = lib.prime_get_data
-        func.restype = POINTER(c_int)
-        func.argtypes = [c_void_p, POINTER(c_int)]
-
-        l = c_int()
-        data = func(self._ctx, byref(l))
-
+        l = ct.c_int()
+        data = lib.prime_get_data(self._ctx, ct.byref(l))
         return [data[i] for i in range(l.value)]
 
