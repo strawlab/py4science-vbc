@@ -1,6 +1,6 @@
 #include <Python.h>
 
-#include "prime.h"
+#include "libprime.h"
 
 static PyObject* wrap_primes(PyObject* self, PyObject* args)
 {
