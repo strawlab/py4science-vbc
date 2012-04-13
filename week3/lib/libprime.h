@@ -3,6 +3,8 @@
 
 #define PRIME_MAX   10000
 
+/* A library for computing sequences of primes */
+
 typedef struct _ctx ctx_t; 
 
 ctx_t   *prime_new(unsigned int len);

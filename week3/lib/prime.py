@@ -1,4 +1,5 @@
 def primes(kmax):
+    """ A really bad routine to compute kmax primes """
     if kmax > 100000:
         kmax = 100000
     k = 0

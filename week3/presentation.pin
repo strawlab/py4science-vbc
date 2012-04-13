@@ -13,32 +13,60 @@ Why
 
  ✔ speeding up hot loops	
  ✔ interfacing with native libraries
- ✔ improving performance in multi-threaded applications
- ✔ interfacing with other computational environments
+ ✔ improving multi-threaded performance (GIL)
+ ✔ interfacing with other environments
  ✔ enjoying segfaults
 
--- [slide-contents-exec=source-highlight -s c -i lib/libprime.h -o STDOUT --outlang-def=./pango.outlang]
+How
+ ✔ Python modules
+ ✔ ctypes
+ ✔ cython
+ ✗ SWIG
 
--- [slide-contents-exec=source-highlight -s py -i lib/modlibprime.pyx -o STDOUT --outlang-def=./pango.outlang]
+-- [command=gnome-terminal] [slide-contents-exec=source-highlight -s py -i lib/prime.py -o STDOUT --outlang-def=./pango.outlang]
+
+-- [command=gnome-terminal] [slide-contents-exec=source-highlight -s c -i lib/libprime.h -o STDOUT --outlang-def=./pango.outlang]
+
+-- [slide-contents-exec=source-highlight -s c -i lib/modprime.c -o STDOUT --outlang-def=./pango.outlang]
+
+-- [slide-contents-exec=source-highlight -s py -i lib/modprimesetup.py -o STDOUT --outlang-def=./pango.outlang]
+
+-- [slide-contents-exec=source-highlight -s py -i lib/pyxprime.pyx -o STDOUT --outlang-def=./pango.outlang]
+
+-- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
+Interfacing with Object Orientated Libraries
 
 -- [slide-contents-exec=source-highlight -s py -i lib/ctlibprime.py -o STDOUT --outlang-def=./pango.outlang]
 
-R example
-GObject / Qt
+-- [slide-contents-exec=source-highlight -s py -i lib/pyxlibprime.pyx -o STDOUT --outlang-def=./pango.outlang]
 
-http://davidz25.blogspot.com/2011/07/writing-c-library-intro-conclusion-and.html
-http://0pointer.de/blog/projects/libabc.html
+-- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
+Memory Management and Numpy
+
+-- [slide-contents-exec=source-highlight -s py -i lib/pyxnpprime.pyx -o STDOUT --outlang-def=./pango.outlang]
+
+-- [slide-contents-exec=source-highlight -s py -i lib/ctnplibprime.py -o STDOUT --outlang-def=./pango.outlang]
+
+-- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
+Other...
+
+-- [command=_vbc python misc/doweave.py] [slide-contents-exec=source-highlight -s py -i misc/weavedemo.py -o STDOUT --outlang-def=./pango.outlang]
+
+-- [command=_vbc python misc/rp.py] [slide-contents-exec=source-highlight -s py -i misc/rp.py -o STDOUT --outlang-def=./pango.outlang]
+
+--
+Writing Nice libraries
+ - http://davidz25.blogspot.com/2011/07/writing-c-library-intro-conclusion-and.html
+ - http://0pointer.de/blog/projects/libabc.html
 
 Profiling
-http://packages.python.org/line_profiler/
+ - http://packages.python.org/line_profiler/
 
 GIL
-http://wiki.python.org/moin/GlobalInterpreterLock
-
-Weave/etc (from email)
+ - http://wiki.python.org/moin/GlobalInterpreterLock
 
 Numpy
-http://www.scipy.org/PerformancePython
-http://www.scipy.org/Cookbook/Ctypes
-http://rebrained.com/?p=458
-http://technicaldiscovery.blogspot.com/2011/06/speeding-up-python-numpy-cython-and.html
+ - http://www.scipy.org/PerformancePython
+ - http://www.scipy.org/Cookbook/Ctypes
+ - http://rebrained.com/?p=458
+ - http://technicaldiscovery.blogspot.com/2011/06/speeding-up-python-numpy-cython-and.html

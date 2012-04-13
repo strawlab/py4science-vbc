@@ -4,20 +4,14 @@
 
 static PyObject* wrap_primes(PyObject* self, PyObject* args)
 {
-    int *data;
     unsigned int l, i;
- 
     if (!PyArg_ParseTuple(args, "I", &l))
         return NULL;
- 
-    data = calloc(l,sizeof(int));
-    calculate_primes(data, l);
-
+    int *data = create_primes(l);
     PyObject *lst = PyList_New(l);
     for (i = 0; i < l; i++)
         PyList_SET_ITEM(lst, i, PyInt_FromLong(data[i]));
     free(data);
-
     return lst;
 }
  

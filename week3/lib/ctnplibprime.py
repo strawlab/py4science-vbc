@@ -17,6 +17,9 @@ class Prime:
     def __init__(self, n):
         self._ctx = lib.prime_new(n)
 
+    def _print(self):
+        lib.prime_print(self._ctx)
+
     def get_data(self):
         l = ct.c_int()
         data = lib.prime_get_data(self._ctx, ct.byref(l))
