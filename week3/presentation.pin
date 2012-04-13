@@ -70,3 +70,5 @@ Numpy
  - http://www.scipy.org/Cookbook/Ctypes
  - http://rebrained.com/?p=458
  - http://technicaldiscovery.blogspot.com/2011/06/speeding-up-python-numpy-cython-and.html
+ - http://stackoverflow.com/questions/3046305/simple-wrapping-of-c-code-with-cython
+

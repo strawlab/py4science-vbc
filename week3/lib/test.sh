@@ -23,8 +23,8 @@ time $(python -c 'import pyxprime; print pyxprime.primes(2000)' > /dev/null)
 echo -e "\n pyprime"
 time $(python -c 'import pyprime; print pyprime.primes(2000)' > /dev/null)
 
-#echo -e "\npyxnpprime"
-#time $(python -c 'import pyxnpprime; print pyxnpprime.primes(2000)' > /dev/null)
+echo -e "\n pyxnpprime"
+time $(python -c 'import pyxnpprime; print pyxnpprime.primes(2000)' > /dev/null)
 
 
 

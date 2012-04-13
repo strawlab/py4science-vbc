@@ -1,0 +1,41 @@
+A comparison of different strategies for interfacing with C code from python.
+
+All examples are for calculating a sequence of prime numbers.
+
+prime.py
+ - python algorithm to return an array of primes
+
+libprime.c
+libprime.h
+ - An OO C-library prime_new(), prime_free(), prime_print()
+ - Function based interface for computing primes
+
+libprime_main.c
+ - C test program for libprime OO interface
+
+modprime.c
+modprimesetup.py
+ - Hand coded python module (and setup.py) for calling the
+   function interface create_primes() function
+
+pyxprime.pyx
+ - Cython re-implementation of prime.py
+
+ctlibprime.py
+ - ctypes wrapper for the OO libprime interface. Note the extra
+   data copy incurred when returning a newly allocated C-array
+   from a c-library
+
+pyxlibprime.pyx
+ - Cython wrapper for the OO libprime interface. Again, we appear
+   to need an extra data copy at the return
+
+ctnplibprime.py 
+ - ctypes + numpy interface to the calculate_primes() function. By using a
+   preallocated numpy array (and the numpy ctypes glue) we save a copy when
+   returning the data
+ - ctypes + numpy interface to the OO library. Returns new data directly from
+   the ctypes C-array without a copy
+
+pyxnpprime.pyx
+ - BROKEN

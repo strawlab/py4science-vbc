@@ -15,5 +15,6 @@ class Prime:
     def get_data(self):
         l = ct.c_int()
         data = lib.prime_get_data(self._ctx, ct.byref(l))
+        #note the extra data copy here
         return [data[i] for i in range(l.value)]
 
