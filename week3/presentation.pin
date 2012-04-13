@@ -11,12 +11,11 @@ Interfacing with Native code from Python
 -- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 Why
 
- ✔ speeding up hot loops
  ✔ speeding up hot loops	
  ✔ interfacing with native libraries
  ✔ improving performance in multi-threaded applications
  ✔ interfacing with other computational environments
- ✔ flexible data structures
+ ✔ enjoying segfaults
 
 -- [slide-contents-exec=source-highlight -s c -i lib/libprime.h -o STDOUT --outlang-def=./pango.outlang]
 

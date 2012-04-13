@@ -3,8 +3,6 @@ def primes(kmax):
         kmax = 100000
     k = 0
     n = 2
-    j = 0
-    result = [0] * kmax
     p = [0] * kmax
     while k < kmax:
         i = 0
@@ -13,6 +11,5 @@ def primes(kmax):
         if i == k:
             p[k] = n
             k = k + 1
-            result[j] = n; j = j + 1
         n = n + 1
-    return result
+    return p

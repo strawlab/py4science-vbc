@@ -1,7 +1,6 @@
 def primes(int kmax):
     cdef int n, k, i
     cdef int p[100000]
-    result = []
     if kmax > 100000:
         kmax = 100000
     k = 0
@@ -13,6 +12,5 @@ def primes(int kmax):
         if i == k:
             p[k] = n
             k = k + 1
-            result.append(n)
         n = n + 1
-    return result
+    return [p[i] for i in range(kmax)]
