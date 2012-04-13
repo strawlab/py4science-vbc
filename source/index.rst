@@ -52,11 +52,20 @@ from here (coming soon).
 Next Talk
 ---------
 
+**coming soon**
+
+Next Talk
+---------
+
 **interfacing with native code from python**
 
   John Stowers
 
   Friday, 13 April 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  `presentation here <_static/week3.pdf>`_
+
+  `source code here <https://github.com/strawlab/py4science-vbc/tree/master/week3>`_
 
   There are many ways to integrate with native code (i.e. C/C++ libraries)
   from python; ctypes, cython/pyrex, swig, native python modules, etc.
