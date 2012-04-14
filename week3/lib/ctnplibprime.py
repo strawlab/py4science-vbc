@@ -8,7 +8,7 @@ lib.calculate_primes.argtypes = [np.ctypeslib.ndpointer(dtype = np.intc),ct.c_in
 lib.prime_get_data.restype = ct.POINTER(ct.c_int)
 lib.prime_get_data.argtypes = [ct.c_void_p, ct.POINTER(ct.c_int)]
 
-def calculate_primes(n):
+def primes(n):
     dest = np.empty(n, dtype=np.intc)
     lib.calculate_primes(dest, n)
     return dest
