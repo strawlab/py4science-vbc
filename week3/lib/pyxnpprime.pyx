@@ -1,20 +1,15 @@
 cimport numpy as np
-import numpy as np
 
-#something is not working here...
+np.import_array()
 
 cdef extern from "libprime.h":
-    void    calculate_primes(int *data, int kmax)
     int     *create_primes(int kmax)
 
 def primes(int kmax):
-    cdef np.npy_intp* shape = [0]
+    cdef np.npy_intp shape[1]
     cdef int* arr_ptr = create_primes(kmax)
-
     shape[0] = kmax
-    return np.PyArray_SimpleNewFromData(1, shape, np.NPY_INT, <void*>arr_ptr)
-
-def primes2(int kmax):
-    cdef np.ndarray[np.int, ndim=1] r = np.zeros((kmax,), dtype=np.int)
-    calculate_primes(<int *>r.data, kmax)
-    return r
+    ndarray = np.PyArray_SimpleNewFromData(1, shape, np.NPY_INT, <void*>arr_ptr)
+    #numpy owns the memory (assumes it was malloc'd), and will free() it for us
+    np.PyArray_UpdateFlags(ndarray, ndarray.flags.num | np.NPY_OWNDATA)
+    return ndarray

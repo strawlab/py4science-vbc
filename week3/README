@@ -38,4 +38,7 @@ ctnplibprime.py
    the ctypes C-array without a copy
 
 pyxnpprime.pyx
- - BROKEN
+ - cython + numpy interface to the calculate_primes function. Creates the numpy
+   array from memory allocated in C and returns it to python (saves a copy)
+
+
