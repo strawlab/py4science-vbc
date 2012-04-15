@@ -43,9 +43,9 @@ Interfacing with Object Orientated Libraries
 -- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 Memory Management and Numpy
 
--- [slide-contents-exec=source-highlight -s py -i lib/pyxnpprime.pyx -o STDOUT --outlang-def=./pango.outlang]
+-- [slide-contents-exec=source-highlight -s py -i lib/ctnpprime.py -o STDOUT --outlang-def=./pango.outlang]
 
--- [slide-contents-exec=source-highlight -s py -i lib/ctnplibprime.py -o STDOUT --outlang-def=./pango.outlang]
+-- [slide-contents-exec=source-highlight -s py -i lib/pyxnpprime.pyx -o STDOUT --outlang-def=./pango.outlang]
 
 -- [black] [text-color=white] [font=Sans 40px] [shading-color=black] [shading-opacity=0.66]
 Other...

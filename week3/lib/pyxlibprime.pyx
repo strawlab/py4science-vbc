@@ -1,3 +1,5 @@
+cimport libc.stdlib
+
 cdef extern from "libprime.h":
     ctypedef struct ctx_t:
         pass
@@ -18,4 +20,6 @@ cdef class Prime:
         cdef int l
         cdef int *d
         d = prime_get_data(self._ctx, &l)
-        return [d[i] for i in range(l)]
+        pyd = [d[i] for i in range(l)]
+        libc.stdlib.free(d)
+        return pyd

@@ -27,18 +27,20 @@ ctlibprime.py
    from a c-library
 
 pyxlibprime.pyx
- - Cython wrapper for the OO libprime interface. Again, we appear
-   to need an extra data copy at the return
+ - Cython wrapper for the OO libprime interface. Again, we need
+   an extra data copy at the return
 
 ctnplibprime.py 
  - ctypes + numpy interface to the calculate_primes() function. By using a
    preallocated numpy array (and the numpy ctypes glue) we save a copy when
    returning the data
- - ctypes + numpy interface to the OO library. Returns new data directly from
-   the ctypes C-array without a copy
+ - ctypes + numpy interface to create_primes(). Returns new data directly from
+   the ctypes C-array without a copy (2 strategies)
 
 pyxnpprime.pyx
- - cython + numpy interface to the calculate_primes function. Creates the numpy
+ - cython + numpy interface to the create_primes function. Creates the numpy
    array from memory allocated in C and returns it to python (saves a copy)
+ - cython + numpy interface to the compute_primes function. Numpy preallocates
+   the array and passes the pointer to the first element to the c-library
 
 

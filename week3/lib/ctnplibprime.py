@@ -3,15 +3,8 @@ import numpy as np
 import ctypes as ct
 
 lib = ct.cdll.LoadLibrary(os.path.abspath("libprime.so"))
-lib.calculate_primes.argtypes = [np.ctypeslib.ndpointer(dtype = np.intc),ct.c_int]
-
 lib.prime_get_data.restype = ct.POINTER(ct.c_int)
 lib.prime_get_data.argtypes = [ct.c_void_p, ct.POINTER(ct.c_int)]
-
-def primes(n):
-    dest = np.empty(n, dtype=np.intc)
-    lib.calculate_primes(dest, n)
-    return dest
 
 class Prime:
     def __init__(self, n):
@@ -21,8 +14,7 @@ class Prime:
         lib.prime_print(self._ctx)
 
     def get_data(self):
+        #see ctnpprime.py for alternative memory management strategies
         l = ct.c_int()
         data = lib.prime_get_data(self._ctx, ct.byref(l))
-        buf = np.core.multiarray.int_asbuffer(
-                ct.addressof(data.contents), l.value * np.dtype(np.intc).itemsize)
-        return np.frombuffer(buf, np.intc)
+        return np.ctypeslib.as_array(data, shape=(1,l.value))
