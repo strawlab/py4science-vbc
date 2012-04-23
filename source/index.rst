@@ -52,10 +52,24 @@ from here (coming soon).
 Next Talk
 ---------
 
-**coming soon**
+**data persistence in python**
 
-Next Talk
----------
+  Uemit Seren
+
+  Friday, 27 April 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  Persisting data is typically done in a RDBMS (relational database
+  management systems). However programmers work with domain models to
+  represent the same data in their applications. ORM layers like
+  SQLAlchemy help to overcome the impedance mismatch between these two
+  systems and deal with implementation differences of the underlying
+  data storage. Not every kind of data fits into a RDBMS however; bulk
+  data/big data are not suitable for RDBMS and have to be stored in a
+  different way (PyTables, HDF5,).  I will provide some examples for
+  both storage systems and also try to show how to combine them.
+
+Previous Talks
+--------------
 
 **interfacing with native code from python**
 
@@ -72,10 +86,6 @@ Next Talk
   Each method has different trade-offs in terms of performance, maintainability
   and extensibility. I will discus these trade-offs and give strategies for
   wrapping object orientated and performance critical native code.
-
-
-Previous Talks
---------------
 
 **structured arrays in numpy**
 
