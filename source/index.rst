@@ -52,6 +52,22 @@ from here (coming soon).
 Next Talk
 ---------
 
+**short introduction to opencv in python**
+
+  Andreas Poehlmann
+
+  Friday, 11 May 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  OpenCV (Open Source Computer Vision) is a library of programming
+  functions for real time computer vision. It has C++, C, Python and
+  soon Java interfaces running on Windows, Linux, Android and Mac.
+  The library has >2500 optimized algorithms. I'll give an introduction
+  to the python opencv interface and show in a few examples how easy
+  image processing can be nowadays.
+
+Previous Talks
+--------------
+
 **data persistence in python**
 
   Uemit Seren
@@ -67,9 +83,6 @@ Next Talk
   data/big data are not suitable for RDBMS and have to be stored in a
   different way (PyTables, HDF5,).  I will provide some examples for
   both storage systems and also try to show how to combine them.
-
-Previous Talks
---------------
 
 **interfacing with native code from python**
 
