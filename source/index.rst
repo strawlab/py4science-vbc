@@ -47,10 +47,33 @@ from here (coming soon).
 **when**
   The 2nd and 4th Friday of the month, 12:30pm.
 
-**where else...**
-
 Next Talk
 ---------
+
+**get control of your source code with git (hands-on: bring your laptop)**
+
+  Andrew Straw
+
+  Friday, 25 May 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  As scientists, it is critical to maintain accurate records of
+  exactly what software we run when we perform a particular experiment
+  or analysis. The standard way to do this is with revision control
+  software which keeps track of what changed and when within a
+  repository of files. In the past several years, a new class of such
+  software has emerged, dramatically reducing the workload to set up a
+  new source code repository, transfer version controlled files from
+  one computer to another, and to collaborate with others. Git is
+  amongst the best of these new solutions, and our lab is using git
+  and an online service (github.com) to facilitate these actions to
+  great effect. *Bring your laptop, because at this py4science VBC,
+  we will walk you through installing git, cloning a repository from
+  github, making changes to the repository, and pushing your changes
+  back.*
+
+
+Previous Talks
+--------------
 
 **short introduction to opencv in python**
 
@@ -64,9 +87,6 @@ Next Talk
   The library has >2500 optimized algorithms. I'll give an introduction
   to the python opencv interface and show in a few examples how easy
   image processing can be nowadays.
-
-Previous Talks
---------------
 
 **data persistence in python**
 
