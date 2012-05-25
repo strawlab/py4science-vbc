@@ -56,6 +56,8 @@ Next Talk
 
   Friday, 25 May 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
+  `presentation and source code here <https://github.com/strawlab/py4science-vbc/tree/master/2012-05-25>`_
+
   As scientists, it is critical to maintain accurate records of
   exactly what software we run when we perform a particular experiment
   or analysis. The standard way to do this is with revision control
