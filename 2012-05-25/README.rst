@@ -1,5 +1,6 @@
+****************************************
 get control of your source code with git
-========================================
+****************************************
 
 Today:
 
@@ -14,5 +15,26 @@ Today:
 
 Useful links:
 
-  * http://github.com (especially see their help pages)
-  * http://newartisans.com/2008/04/git-from-the-bottom-up/
+  * Github - especially their help pages http://github.com
+  * Git From the Bottom Up - http://ftp.newartisans.com/pub/git.from.bottom.up.pdf
+
+the repository concept
+======================
+
+.. image:: git-repo-working-tree-index.png 
+
+(image from Git From the Bottom Up)
+
+commits and branches
+====================
+
+.. image:: commits1.png
+
+(image from Git From the Bottom Up)
+
+merging
+=======
+
+.. image:: commits2.png
+
+(image from Git From the Bottom Up)
