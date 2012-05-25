@@ -21,20 +21,20 @@ Useful links:
 the repository concept
 ======================
 
-.. image:: git-repo-working-tree-index.png 
+.. image:: 2012-05-25/git-repo-working-tree-index.png 
 
 (image from Git From the Bottom Up)
 
 commits and branches
 ====================
 
-.. image:: commits1.png
+.. image:: 2012-05-25/commits1.png
 
 (image from Git From the Bottom Up)
 
 merging
 =======
 
-.. image:: commits2.png
+.. image:: 2012-05-25/commits2.png
 
 (image from Git From the Bottom Up)
