@@ -110,9 +110,9 @@ Previous Talks
 
   Friday, 13 April 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
-  `presentation here <_static/week3.pdf>`_
+  `presentation here <_static/py4science-vbc-2012-04-13.pdf>`_
 
-  `source code here <https://github.com/strawlab/py4science-vbc/tree/master/week3>`_
+  `source code here <https://github.com/strawlab/py4science-vbc/tree/master/2012-04-13>`_
 
   There are many ways to integrate with native code (i.e. C/C++ libraries)
   from python; ctypes, cython/pyrex, swig, native python modules, etc.
@@ -126,9 +126,9 @@ Previous Talks
 
   Friday, 23 March 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
-  `presentation here <_static/week2.pdf>`_
+  `presentation here <_static/py4science-vbc-2012-03-23.pdf>`_
 
-  `source code here <https://github.com/strawlab/py4science-vbc/tree/master/week2>`_
+  `source code here <https://github.com/strawlab/py4science-vbc/tree/master/2012-03-23>`_
 
   Numpy's structured arrays are a hybrid between a bare numpy array
   (just a bunch of numbers) and table in which each column has a name
@@ -149,9 +149,9 @@ Previous Talks
       :alt: announcement flyer PDF
       :target: _static/py4science-vbc-2012-03-09-email.pdf
 
-  `presentation here <_static/week1.pdf>`_
+  `presentation here <_static/py4science-vbc-2012-03-09.pdf>`_
 
-  `source code here <https://github.com/strawlab/py4science-vbc/tree/master/week1>`_
+  `source code here <https://github.com/strawlab/py4science-vbc/tree/master/2012-03-09>`_
 
   A whirldwind tour of the capabilities of python, the python standard library, and common
   python modules including numpy, matplotlib and opencv. We will show you how to read and
