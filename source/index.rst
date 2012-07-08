@@ -50,6 +50,27 @@ from here (coming soon).
 Next Talk
 ---------
 
+**To be announced**
+
+
+Previous Talks
+--------------
+
+**Fiji, a user and developer friendly framework for image processing**
+
+  Wolfgang Busch
+
+  Friday, 22 June 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  It is a serious effort to provide experimentalists with usable open
+  source software for computational analysis of their image data. A
+  crossplatform package that combines the advantage of open source,
+  high grade of usability and very broad application range, is
+  Fiji. With Fiji, it is possible to provide packages to biologists
+  that are very easy to install, as well as to maintain using Git
+  version control features. I will demonstrate the usage of Fiji and
+  the broad possibilities to create packages for it. http://fiji.sc/
+
 **get control of your source code with git (hands-on: bring your laptop)**
 
   Andrew Straw
@@ -72,10 +93,6 @@ Next Talk
   we will walk you through installing git, cloning a repository from
   github, making changes to the repository, and pushing your changes
   back.*
-
-
-Previous Talks
---------------
 
 **short introduction to opencv in python**
 
