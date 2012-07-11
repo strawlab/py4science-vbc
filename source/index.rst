@@ -50,8 +50,21 @@ from here (coming soon).
 Next Talk
 ---------
 
-**To be announced**
+**branches, merging and rebasing: more git (hands-on: bring your laptop)**
 
+  Andrew Straw
+
+  Friday, 13 July 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  As a followup to our first meeting on git, we're now going to move
+  to the skills required to share your changes with a larger group of
+  people working on the same software. This is a beginner-intermediate
+  level talk. (If you're already a git guru, you will not likely learn
+  much, but your attendance would be very welcomed by others in the
+  room who will likely apppreciate your expertise.) *Bring your
+  laptop with git pre-installed or with access to a server running
+  git. At this hands-on py4science VBC, we will actively make changes
+  to an online repository and submit them back.*
 
 Previous Talks
 --------------
