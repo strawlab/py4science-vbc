@@ -56,6 +56,10 @@ Next Talk
 
   Friday, 13 July 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
+  .. raw:: html
+
+    <a href="_static/git-tutorial-part2.html">Link to notes</a>
+
   As a followup to our first meeting on git, we're now going to move
   to the skills required to share your changes with a larger group of
   people working on the same software. This is a beginner-intermediate
