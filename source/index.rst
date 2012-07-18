@@ -122,7 +122,7 @@ Previous Talks
 
   .. raw:: html
 
-    <a href="http://strawlab.org/git">Link to notes</a>
+    <a href="_static/git-tutorial-part2.html">Link to notes</a>
 
   As a followup to our first meeting on git, we're now going to move
   to the skills required to share your changes with a larger group of
