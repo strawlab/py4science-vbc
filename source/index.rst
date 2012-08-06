@@ -50,6 +50,24 @@ from here (coming soon).
 Next Talk
 ---------
 
+**Scientific GUIs on Linux using Gtk**
+
+  John Stowers
+
+  Friday, 10 August July 2012, 12:30pm, IMP Seminar Room 2 (2nd floor)
+
+  *PLEASE NOTE the unusual location! We're not in usual room due to
+  GMI Summer Party.*
+
+  This Friday we will look at using the GTK GUI toolkit from Python
+  with special reference to two challenges faced when doing scientific
+  programming: plotting and interfacing between Python and C. *We'll
+  run examples that will work on a modern Ubuntu Linux install, and as
+  the session will be hands-on, you are invited to follow along.*
+
+Previous Talks
+--------------
+
 **branches, merging and rebasing: more git (hands-on: bring your laptop)**
 
   Andrew Straw
@@ -69,9 +87,6 @@ Next Talk
   laptop with git pre-installed or with access to a server running
   git. At this hands-on py4science VBC, we will actively make changes
   to an online repository and submit them back.*
-
-Previous Talks
---------------
 
 **Fiji, a user and developer friendly framework for image processing**
 
