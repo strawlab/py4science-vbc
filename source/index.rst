@@ -50,23 +50,36 @@ from here (coming soon).
 Next Talk
 ---------
 
+**matplotlib: tips for getting from quick plots to publication-quality figures**
+
+  Andrew Straw
+
+  Friday, 24 August 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  `matplotlib <http://matplotlib.sourceforge.net>`_ is great for
+  making plots of your data in a few lines of code. I'll share with
+  you some tips I've developed over the years about how to efficiently
+  go from those few lines into what is needed later in the publication
+  cycle. This includes simplifying what is drawn, saving plots with
+  mixed vector and raster data, and post-drawing composition and
+  editing with `Inkscape <http://inkscape.org/>`_.
+
+Previous Talks
+--------------
+
 **Scientific GUIs on Linux using Gtk**
 
   John Stowers
 
-  Friday, 10 August July 2012, 12:30pm, IMP Seminar Room 2 (2nd floor)
+  Friday, 10 August 2012, 12:30pm, IMP Seminar Room 2 (2nd floor)
 
-  *PLEASE NOTE the unusual location! We're not in usual room due to
-  GMI Summer Party.*
+  **postponed due to illness of the speaker**
 
   This Friday we will look at using the GTK GUI toolkit from Python
   with special reference to two challenges faced when doing scientific
   programming: plotting and interfacing between Python and C. *We'll
   run examples that will work on a modern Ubuntu Linux install, and as
   the session will be hands-on, you are invited to follow along.*
-
-Previous Talks
---------------
 
 **branches, merging and rebasing: more git (hands-on: bring your laptop)**
 
@@ -211,8 +224,6 @@ Previous Talks
 
 Future Talks
 ------------
-
-* Plotting in matplotlib
 
 * NumPy for MATLAB programmers
 
