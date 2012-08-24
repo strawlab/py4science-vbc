@@ -62,7 +62,8 @@ Next Talk
   go from those few lines into what is needed later in the publication
   cycle. This includes simplifying what is drawn, saving plots with
   mixed vector and raster data, and post-drawing composition and
-  editing with `Inkscape <http://inkscape.org/>`_.
+  editing with `Inkscape <http://inkscape.org/>`_. The talk is based
+  off `our lab styleguide <http://strawlab.org/styleguide/>`_.
 
 Previous Talks
 --------------
