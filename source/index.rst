@@ -50,6 +50,21 @@ from here (coming soon).
 Next Talk
 ---------
 
+**Scientific GUIs on Linux using Gtk**
+
+  John Stowers
+
+  Friday, 14 September 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  We will look at using the GTK GUI toolkit from Python with special
+  reference to two challenges faced when doing scientific programming:
+  plotting and interfacing between Python and C. *We'll run examples
+  that will work on a modern Ubuntu Linux install, and as the session
+  will be hands-on, you are invited to follow along.*
+
+Previous Talks
+--------------
+
 **matplotlib: tips for getting from quick plots to publication-quality figures**
 
   Andrew Straw
@@ -64,23 +79,6 @@ Next Talk
   mixed vector and raster data, and post-drawing composition and
   editing with `Inkscape <http://inkscape.org/>`_. The talk is based
   off `our lab styleguide <http://strawlab.org/styleguide/>`_.
-
-Previous Talks
---------------
-
-**Scientific GUIs on Linux using Gtk**
-
-  John Stowers
-
-  Friday, 10 August 2012, 12:30pm, IMP Seminar Room 2 (2nd floor)
-
-  **postponed due to illness of the speaker**
-
-  This Friday we will look at using the GTK GUI toolkit from Python
-  with special reference to two challenges faced when doing scientific
-  programming: plotting and interfacing between Python and C. *We'll
-  run examples that will work on a modern Ubuntu Linux install, and as
-  the session will be hands-on, you are invited to follow along.*
 
 **branches, merging and rebasing: more git (hands-on: bring your laptop)**
 
