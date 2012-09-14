@@ -50,20 +50,28 @@ from here (coming soon).
 Next Talk
 ---------
 
+Previous Talks
+--------------
+
 **Scientific GUIs on Linux using Gtk**
 
   John Stowers
 
   Friday, 14 September 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+  
+  `Presentation and source code here <https://github.com/strawlab/py4science-vbc/tree/master/2012-09-14>`_
+
+  `Python + Gtk tutorial here <http://readthedocs.org/projects/python-gtk-3-tutorial/>`_
+
+  `Comparison of plotting tools in Gtk <https://github.com/ap--/python-live-plotting>`_
+
+  `Interfacing with C-code, bindings for free <https://github.com/nzjrs/gobject-modern-hello-world>`_
 
   We will look at using the GTK GUI toolkit from Python with special
   reference to two challenges faced when doing scientific programming:
   plotting and interfacing between Python and C. *We'll run examples
   that will work on a modern Ubuntu Linux install, and as the session
   will be hands-on, you are invited to follow along.*
-
-Previous Talks
---------------
 
 **matplotlib: tips for getting from quick plots to publication-quality figures**
 
