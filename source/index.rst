@@ -45,17 +45,43 @@ from here (coming soon).
   The GMI Orange Seminar Room (room 9.36)
 
 **when**
-  The 2nd and 4th Friday of the month, 12:30pm.
+  The 1st Friday of the month, 12:30pm.
 
 Next Talk
 ---------
 
+*(Friday, 2 November 2012 is a public holiday - no py4science)*
+
+**Python-powered voice analysis**
+
+  Christian Herbst, University of Vienna
+
+  Friday, 7 December 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  (abstract forthcoming)
+
 Previous Talks
 --------------
 
+**profiling: why is my script running so slow?**
+
+  Uemit Seren, Gregor Mendel Institute
+
+  Friday, 28 September 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  Profiling is an important but often neglected aspect in programming,
+  especially in the area of scientific computing. I will show various
+  tools that can be used to identify performance hotspots in your
+  code.  We will use timeit to measure the execution time, move on to
+  cProfile and pstats for detailed profiling. Based on the results of
+  cProfile I will show how to interpret the results visually and
+  finally demonstrate line_profiler.py for retrieving line by line
+  profiling information.
+
+
 **Scientific GUIs on Linux using Gtk**
 
-  John Stowers
+  John Stowers, IMP
 
   Friday, 14 September 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
   
@@ -75,7 +101,7 @@ Previous Talks
 
 **matplotlib: tips for getting from quick plots to publication-quality figures**
 
-  Andrew Straw
+  Andrew Straw, IMP
 
   Friday, 24 August 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
@@ -90,7 +116,7 @@ Previous Talks
 
 **branches, merging and rebasing: more git (hands-on: bring your laptop)**
 
-  Andrew Straw
+  Andrew Straw, IMP
 
   Friday, 13 July 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
@@ -110,7 +136,7 @@ Previous Talks
 
 **Fiji, a user and developer friendly framework for image processing**
 
-  Wolfgang Busch
+  Wolfgang Busch, Gregor Mendel Institute
 
   Friday, 22 June 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
@@ -125,7 +151,7 @@ Previous Talks
 
 **get control of your source code with git (hands-on: bring your laptop)**
 
-  Andrew Straw
+  Andrew Straw, IMP
 
   Friday, 25 May 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
@@ -148,7 +174,7 @@ Previous Talks
 
 **short introduction to opencv in python**
 
-  Andreas Poehlmann
+  Andreas Poehlmann, IMP
 
   Friday, 11 May 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
@@ -161,7 +187,7 @@ Previous Talks
 
 **data persistence in python**
 
-  Uemit Seren
+  Uemit Seren, Gregor Mendel Institute
 
   Friday, 27 April 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
@@ -177,7 +203,7 @@ Previous Talks
 
 **interfacing with native code from python**
 
-  John Stowers
+  John Stowers, IMP
 
   Friday, 13 April 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
@@ -193,7 +219,7 @@ Previous Talks
 
 **structured arrays in numpy**
 
-  Andrew Straw
+  Andrew Straw, IMP
 
   Friday, 23 March 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
@@ -212,7 +238,7 @@ Previous Talks
 
 **15 short python programs in 15 minutes**
 
-  John Stowers and Andreas Pöhlmann
+  John Stowers and Andreas Pöhlmann, IMP
 
   Friday, 9 March 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
