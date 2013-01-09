@@ -158,3 +158,6 @@ updategithub: singlehtml
 	mkdir -p $(BUILDDIR)/singlehtml/_images .
 	cp --recursive -f $(BUILDDIR)/singlehtml/_images .
 	echo "you may now visit file://`realpath $(BUILDDIR)/singlehtml/index.html`"
+
+publish: updategithub
+	boto-rsync --grant public-read build/singlehtml/ s3://py4science.strawlab.org/
