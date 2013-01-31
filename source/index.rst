@@ -50,18 +50,36 @@ from here (coming soon).
 Next Talk
 ---------
 
-*(Friday, 2 November 2012 is a public holiday - no py4science)*
+**A Bayesian t test using PyMC**
+
+  Andrew Straw, IMP
+
+  Friday, 1 February 2013, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  Across many branches of biology, null hypothesis significance
+  testing is the tried-and-true method of establishing whether an
+  effect is "real". Nevertheless, many pitfalls must be avoided to
+  correctly evaluate statistical significance and it is easy to make
+  mistakes that render the analysis invalid. I will summarize a recent
+  paper *Bayesian estimation supersedes the t test* ("BEST") by John
+  Kruschke (2012, Journal of Experimental Psychology:
+  General.). Kruschke's Bayesian approach purports to acheive the same
+  goals as the t test with fewer potential pitfalls. Furthermore, his
+  approach has several advantages, such as the ability to accept the
+  null hypothesis. Computationally, credible intervals of important
+  parameters such population means and effect size are found using
+  Monte-Carlo techniques such as the Metropolis-Hastings algorithm. I
+  will discuss a `Python implementation of the BEST algorithm
+  <http://github.com/strawlab/best>`_ written using PyMC.
+
+Previous Talks
+--------------
 
 **Python-powered voice analysis**
 
   Christian Herbst, University of Vienna
 
   Friday, 7 December 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
-
-  (abstract forthcoming)
-
-Previous Talks
---------------
 
 **profiling: why is my script running so slow?**
 
