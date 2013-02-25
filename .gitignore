@@ -1,1 +1,4 @@
 build
+_static/doctools.js
+_static/jquery.js
+_static/underscore.js
