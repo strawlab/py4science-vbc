@@ -50,6 +50,30 @@ from here (coming soon).
 Next Talk
 ---------
 
+**C# for Computer Graphics and hence for Scientific Computing**
+
+  Robert Tobler, VRVis Research Center
+
+  Friday, 1 March 2013, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  Although C# does not have such a dedicated community for scientific
+  computing as Python, its modern language features allow for a high
+  level of code reuse and extend some of the features found in
+  Python. I will show some examples from Computer Graphics, which show
+  how the combination of generic and functional programming with a
+  strong type system can benefit the impementation of algorithms for
+  scientific computing.
+
+  Since 2000, Dr. Tobler is a senior research at VRVis Research Center
+  for Virtual Reality and Visualization in Vienna, Austria. His
+  professional interests include real-time and photorealistic
+  rendering, efficient global illumination algorithms, and
+  procedurally generated geometry and generalized subdivision. His web
+  page is http://rftobler.at/Personal/.
+
+Previous Talks
+--------------
+
 **A Bayesian t test using PyMC**
 
   Andrew Straw, IMP
