@@ -50,6 +50,23 @@ from here (coming soon).
 Next Talk
 ---------
 
+**CellCognition: A tool for time-resolved phenotype annotation in high-throughput live cell imaging**
+
+  Christoph Sommer, IMBA
+
+  Friday, 5 April 2013, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  Automated microscopy has become an enabling technology to monitor
+  and quantify properties of cells. A typical workflow to analyze
+  microscopy data comprises the segmentation of cells, linking of cell
+  objects over time, and quantification of cellular
+  phenotypes. CellCognition is published as open source software,
+  enabling automated analysis of live-cell image-based screening data.
+
+
+Previous Talks
+--------------
+
 **C# for Computer Graphics and hence for Scientific Computing**
 
   Robert Tobler, VRVis Research Center
@@ -70,9 +87,6 @@ Next Talk
   rendering, efficient global illumination algorithms, and
   procedurally generated geometry and generalized subdivision. His web
   page is http://rftobler.at/Personal/.
-
-Previous Talks
---------------
 
 **A Bayesian t test using PyMC**
 
