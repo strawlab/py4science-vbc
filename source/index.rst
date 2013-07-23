@@ -50,6 +50,22 @@ from here (coming soon).
 Next Talk
 ---------
 
+**Yapsy - a lightweight plugin framework for Python.**
+
+  Rudolf Hoefler, IMBA
+
+  Friday, 9 August 2013, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  For software projects it is often convenient to implement certain
+  functionality as plugins (e.g. ImageJ) to avoid re-installation of
+  the whole package. Yapsy (Yet Another Plugin System) provides such a
+  framework for Python. Developers focused on simplicity i.e. no
+  dependencies except the standard library. It provides various
+  classes for plugin management that can be easily extended.
+
+Previous Talks
+--------------
+
 **Pandas for practical, real world data analysis in Python**
 
   Andreas Poehlmann
@@ -172,9 +188,6 @@ Next Talk
   Monte-Carlo techniques such as the Metropolis-Hastings algorithm. I
   will discuss a `Python implementation of the BEST algorithm
   <http://github.com/strawlab/best>`_ written using PyMC.
-
-Previous Talks
---------------
 
 **Python-powered voice analysis**
 
