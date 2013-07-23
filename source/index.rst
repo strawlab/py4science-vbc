@@ -54,7 +54,7 @@ Next Talk
 
   Andreas Poehlmann
 
-  Friday, 7 June 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+  Friday, 7 June 2013, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
   pandas is a Python package providing fast, flexible, and expressive
   data structures designed to make working with “relational” or
@@ -80,14 +80,11 @@ Next Talk
   different file backends and some of the wonderful magical powers that
   pandas posseses. See you then!
 
-Previous Talks
---------------
-
 **Complex Experiment Configuration, Control, Automation, and Analysis using Robot Operating System (ROS)**
 
   John Stowers
 
-  Friday, 3 May 2012, 12:30pm, GMI Orange Seminar Room (room 9.36)
+  Friday, 3 May 2013, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
   The Robot Operating System (ROS), and its Python bindings, are well known
   and used in the engineering and robotics communities for the many high
