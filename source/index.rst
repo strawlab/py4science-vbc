@@ -50,6 +50,16 @@ from here (coming soon).
 Next Talk
 ---------
 
+**Using Python for fun and profit in machine learning competitions**
+
+  Santi Villalba
+
+  Friday, 6 September 2013, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+
+Previous Talks
+--------------
+
 **Yapsy - a lightweight plugin framework for Python.**
 
   Rudolf Hoefler, IMBA
@@ -62,9 +72,6 @@ Next Talk
   framework for Python. Developers focused on simplicity i.e. no
   dependencies except the standard library. It provides various
   classes for plugin management that can be easily extended.
-
-Previous Talks
---------------
 
 **Pandas for practical, real world data analysis in Python**
 
