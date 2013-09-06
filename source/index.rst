@@ -56,6 +56,15 @@ Next Talk
 
   Friday, 6 September 2013, 12:30pm, GMI Orange Seminar Room (room 9.36)
 
+  Machine learning competitions are becoming a mainstream sport, with
+  many skilled data analysts competing to have fun, show-off their
+  skills, earn some money or just improve themselves. In this talk I
+  will introduce crowsourced gamification for solving predictive
+  analytics problems, praise the excellences of python as a language
+  for data analysis and, time allowing, show a hands-on example of a
+  "python competition framework", enriched with machine learning
+  algorithms coming from a java machine learning library, but without
+  a single line of java hurting your eyes.
 
 Previous Talks
 --------------
