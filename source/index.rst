@@ -50,7 +50,7 @@ from here (coming soon).
 Next Talk
 ---------
 
-**Python and Google App Engine and Google Drive and Google Calendar and Google Spreadsheets
+**Python and Google App Engine and Google Drive and Google Calendar and Google Spreadsheets**
 
   Andreas Poehlmann
 
