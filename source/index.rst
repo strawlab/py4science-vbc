@@ -50,6 +50,24 @@ from here (coming soon).
 Next Talk
 ---------
 
+**Python and Google App Engine and Google Drive and Google Calendar and Google Spreadsheets
+
+  Andreas Poehlmann
+
+  Friday, 8 November 2013, 12:30pm, GMI Orange Seminar Room (room 9.36)
+
+  Having a cross operating system compatible interface for your favourite python tools that is
+  reachable from anywhere with an internet connection can be easily achieved using the services
+  provided by google app engine. This friday we’ll go through some minimal working examples,
+  to get you started with app engine, and I’ll show you a tool that I wrote for flystock management,
+  which uses google app engine, google drive and google calendar.
+
+  If you already have some special questions regarding app engine, let me know in advance!
+
+
+Previous Talks
+--------------
+
 **Using Python for fun and profit in machine learning competitions**
 
   Santi Villalba
@@ -65,9 +83,6 @@ Next Talk
   "python competition framework", enriched with machine learning
   algorithms coming from a java machine learning library, but without
   a single line of java hurting your eyes.
-
-Previous Talks
---------------
 
 **Yapsy - a lightweight plugin framework for Python.**
 
@@ -414,4 +429,3 @@ Future Talks
 
 .. toctree::
    :maxdepth: 2
-
