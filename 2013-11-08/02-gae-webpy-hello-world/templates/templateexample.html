@@ -1,0 +1,13 @@
+$def with (data)
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>EXAMPLE</h1>
+        <ul>
+            $for d in data:
+                $ output = str(d)
+                <li>${output}</li>
+        </ul>
+    </body>
+</html>
