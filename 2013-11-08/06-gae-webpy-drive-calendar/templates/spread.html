@@ -1,0 +1,12 @@
+$def with (cells)
+<html>
+<head>
+</head>
+<body>
+<h1>spreadsheets</h1>
+<ul>
+$for cell in cells:
+    <li>$(int(cell.cell.row)), $(int(cell.cell.col)) : $(cell.content.text)</li>
+</ul>
+</body>
+</html>

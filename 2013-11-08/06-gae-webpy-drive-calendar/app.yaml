@@ -1,0 +1,16 @@
+application: global-timer-392
+version: 0-0-1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /oauth2callback
+  script: main.appoauth
+  secure: always
+
+- url: /.*
+  script: main.application
+  secure: always
+

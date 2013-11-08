@@ -1,0 +1,14 @@
+$def with (tree)
+<html>
+<head>
+</head>
+<body>
+<h1>Drive</h1>
+<ul>
+$ ffunc = lambda x: x['mimeType'] == 'application/vnd.google-apps.spreadsheet'
+$for name, node in tree.flatten_names(filter=ffunc):
+    $ ssid = node['id']
+    <li><a href='/spreadsheets?ssid=$ssid'>$name</a></li>
+</ul>
+</body>
+</html>

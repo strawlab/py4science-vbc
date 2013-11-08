@@ -1,0 +1,12 @@
+$def with (cl)
+<html>
+<head>
+</head>
+<body>
+<h1>Calendars</h1>
+<ul>
+$for ccc in sorted(cl, key=(lambda x: x['summary'])):
+    <li>$(ccc['summary'])</li>
+</ul>
+</body>
+</html>
