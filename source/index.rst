@@ -50,6 +50,33 @@ from here (coming soon).
 Next Talk
 ---------
 
+**Bioimage analysis with ilastik**
+
+  Ullrich Koethe
+
+  Friday, 7 February 2014, 12:30pm, IMP Lecture Hall
+
+  Tools for bioimage analysis presently face two major challenges: (i)
+  they should work reliably in the hands of end users, and (ii) should
+  be able to handle massive amounts of data.  To solve the first
+  problem, our group's major open-source project "ilastik"
+  (www.ilastik.org) offers generic image analysis workflows (pixel and
+  object classification, interactive segmentation, and tracking) in up
+  to five dimensions (space, time and spectral) which can be adapted
+  to new experiments using modern machine learning methods. ilastik's
+  intuitive user interface and immediate feedback on all interactions
+  enable biologists to train these methods themselves, without
+  consulting an image analyis expert. The second problem is addressed
+  by means of an execution graph architecture called "lazyflow" which
+  determines the minimum computation required to fulfill any user
+  request and executes each request strictly on demand and in
+  parallel. The talk will give an introduction to the underlying
+  algorithms and software design as well as a short online
+  demonstration of the software's capabilities.
+
+Previous Talks
+--------------
+
 **Python and Google App Engine and Google Drive and Google Calendar and Google Spreadsheets**
 
   Andreas Poehlmann
@@ -64,9 +91,6 @@ Next Talk
 
   If you already have some special questions regarding app engine, let me know in advance!
 
-
-Previous Talks
---------------
 
 **Using Python for fun and profit in machine learning competitions**
 
